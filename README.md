@@ -1,68 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Clicky Game
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Commits
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
 
-### `npm test`
+* Committing often is a signal to employers that you are actively working on your code and learning.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
 
-### `npm run build`
+  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Be clear and descriptive in your commit messaging.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-### `npm run eject`
+### Submission on BCS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* **This assignment must be deployed.** * Please submit both the deployed link to your homework AND the link to the Github Repository!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will clicked the single build dependency from your project.
+Because this is only a front-end application (no actual web server), you will need to deploy to github pages or netlify. Traditionally, github pages deployment has been tricky so I've provided instructions for both netlify and github pages. You can set up auto-deploy to netlify, much like heroku. I think it took me 15 minutes to deploy an app to netlify last time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Github Pages
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- https://github.com/gitname/react-gh-pages
+- https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Netlify
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31 
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Instructions
 
-### Analyzing the Bundle Size
+1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
 
-### Making a Progressive Web App
+3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 
-### Advanced Configuration
+5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+6. Once the user's score is reset after an incorrect guess, the game should restart.
 
-### Deployment
+7. When complete, the application should be deployed to Github Pages or Netlify. See the README generated with Create React App for instructions on deploying the application to Github Pages.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- - -
 
-### `npm run build` fails to minify
+#### Minimum Requirements
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **This assignment must be deployed.** Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Github Pages or Netlify and adding a README.md are required for this homework. In addition, add this homework to your portfolio. More information can be found below.
+
+- - -
+
+#### Hints
+
+* Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interactive.
+
+### Reminder: Submission on BCS
+
+* Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
+
+- - -
+
+### Create a README.md
+
+Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
+
+* [About READMEs](https://help.github.com/articles/about-readmes/)
+
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+- - -
+
+### Add To Your Portfolio
+
+After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
+
+- - -
+
+#### One More Thing
+
+If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
+
+**Good Luck!**
